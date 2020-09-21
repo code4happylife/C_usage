@@ -8,5 +8,5 @@ main()
 	nc = 0;
 	while (getchar() != EOF)
 		++nc;
-	printf("%ld\n", nc);
+	printf("The input has %ld characters\n", nc);
 }
