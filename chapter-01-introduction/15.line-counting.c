@@ -8,5 +8,6 @@ main()
 	while ((c = getchar()) != EOF)
 		if (c == '\n')
 			++nl;
-	printf("%d\n", nl);
+	nl++;
+	printf("The input has %d lines\n", nl);
 }

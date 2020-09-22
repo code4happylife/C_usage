@@ -7,5 +7,5 @@ main()
 
 	for (nc = 0; getchar() != EOF; ++nc)
 		;
-	printf("%.0f\n", nc);
+	printf("Total count of characters in input is : %.0f\n", nc);
 }
