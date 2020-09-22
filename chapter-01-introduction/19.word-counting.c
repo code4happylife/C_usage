@@ -21,5 +21,5 @@ main()
 		}
 	}
 
-	printf("%d %d %d\n", nl, nw, nc);
+	printf("The input has %d lines, %d words,and %d characters.\n", nl, nw, nc);
 }
