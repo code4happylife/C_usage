@@ -20,8 +20,10 @@ main()
 		}
 	
 	if (max > 0)
-		printf("The longest characters: %s", longest);
-	
+		{
+		printf("The length of the corresponding longest characters is :%d \t", max);
+		printf("The longest characters: %s\n", longest);
+		}
 	return 0;
 }
 /*getline:read a line into s, return length*/

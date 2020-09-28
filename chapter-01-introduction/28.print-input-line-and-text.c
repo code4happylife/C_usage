@@ -3,7 +3,6 @@
 #define MAXLINE 1000
 
 int myGetline(char line[], int maxline);
-char
 
 main()
 {
