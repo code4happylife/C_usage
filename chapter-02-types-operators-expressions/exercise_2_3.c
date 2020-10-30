@@ -22,6 +22,8 @@ main()
 	printf("3FQWE is %d\n", n);
 	n = htoi("FQ");
 	printf("FQ is %d\n",n);
+	n = htoi("0x1fff");
+	printf("0x1fff is %d\n", n);
 }
 
 int htoi(char s[])
@@ -36,9 +38,9 @@ int htoi(char s[])
 		
 		if (s[i] >= '0' && s[i] <= '9') {
 			n = 16 * n + (s[i] - '0');
-		} else if (s[i] >= 'a' && s[i] <= 'f') {
+		} else if (s[i] >= 'a' && s[i] <= 'f') {//a-f
 			n = 16 * n + (s[i] - 'a' + 10);
-		} else if (s[i] >= 'A' && s[i] <= 'F') {
+		} else if (s[i] >= 'A' && s[i] <= 'F') {//A-F
 			n = 16 * n + (s[i] - 'A' + 10);
 		} else {
 			break;
