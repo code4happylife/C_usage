@@ -20,6 +20,11 @@ main()
 	a = INT_MAX;
 	itoa(a, s);
 	printf("%s\n", s);
+	
+	int b = 456;
+	itoa(b, s);
+	printf("%s\n", s);	
+
 }
 
 void itoa(int n, char s[])
@@ -47,7 +52,7 @@ void itoa(int n, char s[])
 
 	s[i] = '\0';
 	reverse(s);
-
+	//reverse will transfer number to string reversely.
 	if (nIsMinNagetive)
 		s[strlen(s) - 1] += 1;
 }
